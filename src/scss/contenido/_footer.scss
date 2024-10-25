@@ -1,0 +1,12 @@
+@use 'base/variables' as v;
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 2rem;
+    a {
+        color: v.$azulDesaturado;
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
